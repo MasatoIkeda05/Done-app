@@ -7,6 +7,10 @@ gem "sprockets-rails"
 gem "puma", ">= 5.0"
 gem "bootsnap", require: false
 
+### Tmp
+gem "rename"
+
+
 ### DB Base
 gem "pg", "~> 1.1"
 
