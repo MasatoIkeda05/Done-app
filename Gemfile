@@ -14,6 +14,9 @@ gem "rename"
 ### DB Base
 gem "pg", "~> 1.1"
 
+### CSS Base
+gem "bootstrap-sass"
+
 ### JS Base
 gem "importmap-rails"
 gem "stimulus-rails"
