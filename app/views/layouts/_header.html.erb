@@ -1,0 +1,15 @@
+<header class="header navbar navbar-inverse">
+  <div class="container">
+    <%= link_to "DONE.", '#', id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Log in", new_user_session_path %></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to 'Log　out', destroy_user_session_path, method: :delete %>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="header-body-space"></div>
