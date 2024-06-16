@@ -6,6 +6,7 @@ gem "rails", "~> 7.1.3", ">= 7.1.3.2"
 gem "sprockets-rails"
 gem "puma", ">= 5.0"
 gem "bootsnap", require: false
+gem "bcrypt"
 
 ### Tmp
 gem "rename"
