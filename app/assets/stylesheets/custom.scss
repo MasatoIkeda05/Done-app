@@ -8,11 +8,18 @@ $gray-medium-light: #eaeaea;
 /* universal */
 
 body {
-  padding-top: 60px;
+  margin: 0;
+  padding: 0;
 }
 
 section {
   overflow: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  margin-bottom: 20px;
 }
 
 textarea {

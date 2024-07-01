@@ -21,7 +21,6 @@ gem "bootstrap-sass"
 ### JS Base
 gem "importmap-rails"
 gem "stimulus-rails"
-gem "turbo-rails"
 
 ### API Base
 gem "jbuilder"
